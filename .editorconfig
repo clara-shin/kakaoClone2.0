@@ -1,0 +1,21 @@
+# EditorConfig란? EditorConfig는 다양한 편집기 및 IDE에서 동일한 프로젝트를 수행하는 여러 개발자에게 일관된 코딩 스타일을 유지하도록 도와준다. EditorConfig 프로젝트는 코딩 스타일을 정의하기 위한 파일 형식과 편집자가 파일 형식을 읽고 정의된 스타일을 준수할 수 있는 텍스트 편집기 플러그인의 모음으로 구성된다. EditorConfig 파일은 읽기 쉽고 버전 제어 시스템과 잘 작동한다.
+
+# https://editorconfig.org/
+
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+# trim_trailing_whitespace: 텍스트 편집기에 의해 자동으로 (파일 저장 시 또는 파일을 편집하는 동안) 새로운 줄 앞에 있는 공백 문자가 제거되는지 여부를 제어
+trim_trailing_whitespace = true
+# insert_final_newline: 파일을 저장할 때 새 라인으로 종료할 건지 말건지
+insert_final_newline = true
+
+
+#참고
+# command(Ctrl) + ,
+# wordwrap 검색
+# 사용자 탭에서 자동줄바꿈 on으로 설정
